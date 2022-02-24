@@ -19,9 +19,10 @@ export default function Form(props) {
         <h2>Add New User</h2>
         <button disable={disabled}>Submit</button>
         <div className="errors">
-          <div>{errors.name}</div>
-          <div>{errors.email}</div>
-          <div>{errors.password}</div>
+          <p>{errors.name}</p>
+          <p>{errors.email}</p>
+          <p>{errors.password}</p>
+          <p>{errors.termsOfService}</p>
         </div>
       </div>
 
